@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Flood Prediction</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Flood Prediction Form</h1>
+
+<form action="/predict" method="POST">
+
+<input type="number" step="any" name="MonsoonIntensity" placeholder="Monsoon Intensity" required>
+
+<input type="number" step="any" name="TopographyDrainage" placeholder="Topography Drainage" required>
+
+<input type="number" step="any" name="RiverManagement" placeholder="River Management" required>
+
+<input type="number" step="any" name="Deforestation" placeholder="Deforestation" required>
+
+<input type="number" step="any" name="Urbanization" placeholder="Urbanization" required>
+
+<input type="number" step="any" name="ClimateChange" placeholder="Climate Change" required>
+
+<input type="number" step="any" name="DamsQuality" placeholder="Dams Quality" required>
+
+<input type="number" step="any" name="Siltation" placeholder="Siltation" required>
+
+<input type="number" step="any" name="AgriculturalPractices" placeholder="Agricultural Practices" required>
+
+<input type="number" step="any" name="Encroachments" placeholder="Encroachments" required>
+
+<input type="number" step="any" name="IneffectiveDisasterPreparedness" placeholder="Disaster Preparedness" required>
+
+<input type="number" step="any" name="DrainageSystems" placeholder="Drainage Systems" required>
+
+<input type="number" step="any" name="CoastalVulnerability" placeholder="Coastal Vulnerability" required>
+
+<input type="number" step="any" name="Landslides" placeholder="Landslides" required>
+
+<input type="number" step="any" name="Watersheds" placeholder="Watersheds" required>
+
+<input type="number" step="any" name="DeterioratingInfrastructure" placeholder="Infrastructure" required>
+
+<input type="number" step="any" name="PopulationScore" placeholder="Population Score" required>
+
+<input type="number" step="any" name="WetlandLoss" placeholder="Wetland Loss" required>
+
+<input type="number" step="any" name="InadequatePlanning" placeholder="Inadequate Planning" required>
+
+<input type="number" step="any" name="PoliticalFactors" placeholder="Political Factors" required>
+
+<br><br>
+
+<button type="submit">Predict Flood</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

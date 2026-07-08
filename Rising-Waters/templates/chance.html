@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🌊 Flood Prediction System</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🌊 Rising Water</h1>
+
+<h2>Flood Prediction System</h2>
+
+<p>Enter the environmental parameters below to predict flood risk.</p>
+
+<form action="/predict" method="POST">
+
+<input type="number" min="0" max="10" step="any" name="MonsoonIntensity" placeholder="Monsoon Intensity" required>
+
+<input type="number" min="0" max="10" step="any" name="TopographyDrainage" placeholder="Topography Drainage" required>
+
+<input type="number" min="0" max="10" step="any" name="RiverManagement" placeholder="River Management" required>
+
+<input type="number" min="0" max="10" step="any" name="Deforestation" placeholder="Deforestation" required>
+
+<input type="number" min="0" max="10" step="any" name="Urbanization" placeholder="Urbanization" required>
+
+<input type="number" min="0" max="10" step="any" name="ClimateChange" placeholder="Climate Change" required>
+
+<input type="number" min="0" max="10" step="any" name="DamsQuality" placeholder="Dams Quality" required>
+
+<input type="number" min="0" max="10" step="any" name="Siltation" placeholder="Siltation" required>
+
+<input type="number" min="0" max="10" step="any" name="AgriculturalPractices" placeholder="Agricultural Practices" required>
+
+<input type="number" min="0" max="10" step="any" name="Encroachments" placeholder="Encroachments" required>
+
+<input type="number" min="0" max="10" step="any" name="IneffectiveDisasterPreparedness" placeholder="Disaster Preparedness" required>
+
+<input type="number" min="0" max="10" step="any" name="DrainageSystems" placeholder="Drainage Systems" required>
+
+<input type="number" min="0" max="10" step="any" name="CoastalVulnerability" placeholder="Coastal Vulnerability" required>
+
+<input type="number" min="0" max="10" step="any" name="Landslides" placeholder="Landslides" required>
+
+<input type="number" min="0" max="10" step="any" name="Watersheds" placeholder="Watersheds" required>
+
+<input type="number" min="0" max="10" step="any" name="DeterioratingInfrastructure" placeholder="Infrastructure" required>
+
+<input type="number" min="0" max="10" step="any" name="PopulationScore" placeholder="Population Score" required>
+
+<input type="number" min="0" max="10" step="any" name="WetlandLoss" placeholder="Wetland Loss" required>
+
+<input type="number" min="0" max="10" step="any" name="InadequatePlanning" placeholder="Inadequate Planning" required>
+
+<input type="number" min="0" max="10" step="any" name="PoliticalFactors" placeholder="Political Factors" required>
+
+<button type="submit">🚀 Predict Flood</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
