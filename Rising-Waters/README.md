@@ -148,7 +148,7 @@ The best-performing model was saved for deployment using Joblib.
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Rising_Water.git
+git clone https://github.com/Navyareddy2005/Rising-Waters.git
 ```
 
 Go to project folder
